@@ -1,0 +1,44 @@
+# Clinicas Nara
+
+Este repositório contém dados e análises sobre clínicas, consultas, médicos, pacientes e avaliações.  
+O objetivo é explorar tempos de espera, satisfação dos pacientes, desempenho de médicos e clínicas, e outros insights relevantes.
+
+## Estrutura dos arquivos
+
+- `avaliacoes.csv` → Notas de satisfação e comentários dos pacientes.
+- `clinicas.csv` → Informações das clínicas (nome, cidade, capacidade diária).
+- `consultas.csv` → Detalhes das consultas (especialidade, horário agendado e realizado, status).
+- `medicos.csv` → Dados dos médicos (nome e especialidade).
+- `pacientes.csv` → Dados dos pacientes (idade, sexo, cidade, plano de saúde).
+- `clinincasNara.ipynb` → Notebook com tratamento de dados, cálculo de métricas e gráficos.
+- `README.md` → Este arquivo de descrição.
+
+## Objetivos do projeto
+
+1. Identificar outliers e padrões no tempo de espera das consultas.
+2. Comparar média e mediana de tempo de espera e nota de satisfação por especialidade, médico e clínica.
+3. Explorar correlações entre tempo de espera e nota de satisfação.
+4. Avaliar insatisfação por cidade e faixa etária.
+5. Analisar médicos com mais reclamações.
+6. Comparar clínicas em relação à capacidade e desempenho.
+7. Verificar relação entre plano de saúde e tempo de espera.
+8. Identificar especialidades com alta taxa de cancelamento e baixa nota de satisfação.
+
+## Ferramentas utilizadas
+
+Durante a elaboração deste projeto, foi utilizado o Copilot como auxílio para:
+- Estruturação do código em Python para análise de dados.
+- Criação de pipelines de tratamento, agrupamento e visualização.
+- Sugestão de insights e interpretação de resultados.
+
+## Licença
+
+Este projeto é público e gratuito para estudo e análise de dados.
+
+
+## Como usar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/viniioliver/Clinicas-Nara.git
